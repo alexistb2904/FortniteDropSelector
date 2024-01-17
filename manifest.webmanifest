@@ -9,9 +9,9 @@
 	"display": "standalone",
 	"dir": "auto",
 	"lang": "en",
-	"name": "Fortnite Drop Selector",
-	"short_name": "Fortnite Drop Selector",
+	"name": "Fortnite Drop Location",
+	"short_name": "Fortnite Drop Location",
 	"start_url": "index.html",
-	"description": "Fortnite Drop Selector Map",
-	"id": "https://alexistb2904.github.io/FortniteSelector/"
+	"description": "Fortnite Drop Location Assistant",
+	"id": "https://alexistb2904.github.io/FortniteDropSelector/"
 }
