@@ -57,9 +57,9 @@ body {
 #selectedPlace {
 	display: none;
 	position: absolute;
-	bottom: 8%;
+	bottom: 10%;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1em;
 	background-color: #3498db;
 	border: 0.1vh solid white;
 	padding: 1%;
@@ -82,6 +82,14 @@ body {
 		height: auto;
 	}
 	#selectedPlace {
-		width: 80%;
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#selectedPlace {
+		width: 60%;
+		top: -15% !important;
+		bottom: unset;
 	}
 }
