@@ -1,0 +1,87 @@
+html {
+	--background-theme: #0e327e;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100dvh;
+	background-image: url('images/color_back.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.mapandcursor {
+	position: relative;
+}
+
+#map-container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 1dvh;
+}
+
+#map {
+	height: 90dvh;
+	box-shadow: 0 0 10vh 0 rgba(0, 0, 0, 0.5);
+	border-radius: 5vmax;
+}
+
+#cursor {
+	position: absolute;
+	width: 3%;
+	display: none;
+}
+
+#selectButton {
+	background-color: #3498db;
+	padding: 2%;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 1vh;
+	transition: 0.25s;
+}
+
+#selectButton:hover {
+	background-color: #2980b9;
+	transform: scale(1.1);
+}
+
+#selectedPlace {
+	display: none;
+	position: absolute;
+	bottom: 8%;
+	color: white;
+	font-size: 1.5em;
+	background-color: #3498db;
+	border: 0.1vh solid white;
+	padding: 1%;
+	border-radius: 1vh;
+	text-align: center;
+}
+
+#placeName {
+	font-weight: bold;
+}
+
+#showHidesLabel {
+	color: white;
+	font-size: 1.5em;
+}
+
+@media screen and (max-width: 1000px) {
+	#map {
+		width: 100%;
+		height: auto;
+	}
+	#selectedPlace {
+		width: 80%;
+	}
+}

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="images/logo_white.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Fortnite Drop Selector</title>
+	</head>
+	<body>
+		<div id="map-container">
+			<div class="mapandcursor">
+				<img src="images/carte.jpg" alt="Carte avec lieux-dits fortnite" id="map" />
+				<img src="images/cursor.png" id="cursor" />
+			</div>
+			<button id="selectButton">Select a Drop</button>
+			<label id="showHidesLabel" for="showHides"
+				>Use Rebel Hide
+				<input type="checkbox" id="showHides" />
+			</label>
+			<p id="selectedPlace">Selected Drop<br /><span id="placeName"></span></p>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
