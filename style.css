@@ -36,6 +36,8 @@ body {
 #cursor {
 	position: absolute;
 	width: 3%;
+	transform-origin: bottom;
+	transform: scale(1.8);
 	display: none;
 }
 
